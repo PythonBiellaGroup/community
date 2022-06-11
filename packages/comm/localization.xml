@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GenRoBag><main path="main.py" ext="py"><en_community base="Community"></en_community></main>
+<menu path="menu.py" ext="py"><en_my_profile base="My profile" it="Mio profilo"></en_my_profile>
+<en_developers base="Developers" it="Sviluppatori"></en_developers>
+<en_projects base="Projects" it="Progetti"></en_projects>
+<en_lookups base="Lookups"></en_lookups>
+<en_community base="Community"></en_community>
+<en_surveys base="Surveys" it="Sondaggi"></en_surveys>
+<en_administration fr="Administration" en="Administration tools" de="Verwaltung" it="Amministrazione sistema" base="Administration"></en_administration>
+<en_system fr="Système" de="System" en="System" it="Sistema" base="System"></en_system></menu>
+<model><_packages><adm><group path="model/_packages/adm/group.py" ext="py"><en_community_developer base="Community Developer" it="Sviluppatore community"></en_community_developer></group></adm></_packages>
+<developer path="model/developer.py" ext="py"><en_developer base="Developer" it="Sviluppatore"></en_developer>
+<en_developers base="Developers" it="Sviluppatori"></en_developers>
+<en_name fr="Nom" de="Name" en="Name" it="Nome" base="Name"></en_name>
+<en_surname base="Surname" it="Cognome"></en_surname>
+<en_country base="Country" it="Nazione"></en_country>
+<en_geocode base="Geocode" it="Geolocalizzazione"></en_geocode>
+<en_locality base="Locality" it="Località"></en_locality>
+<en_full_address base="Full address" it="Indirizzo completo"></en_full_address>
+<en_photo base="Photo" it="Foto"></en_photo>
+<en_bio base="Bio" it="Bio"></en_bio>
+<en_telegram_username base="Telegram username" it="Username Telegram"></en_telegram_username>
+<en_user fr="Utilisateur" de="Benutzer" en="User" it="Utente" base="User"></en_user>
+<en_languages fr="Langues" de="Sprachen" en="Languages" it="Linguaggi" base="Languages"></en_languages>
+<en_qualifications base="Qualifications" it="Titoli di studio"></en_qualifications>
+<en_topics base="Topics" it="Argomenti"></en_topics>
+<en_hobbies base="Hobbies"></en_hobbies></developer>
+<developer_hobby path="model/developer_hobby.py" ext="py"><en_developer_hobbies base="Developer hobbies" it="Hobby sviluppatore"></en_developer_hobbies>
+<en_developer_hobby base="Developer hobby" it="Hobby sviluppatore"></en_developer_hobby>
+<en_developer base="Developer" it="Sviluppatore"></en_developer>
+<en_hobby base="Hobby"></en_hobby>
+<en_level base="Level" de="Höhe" en="Level" fr="Niveau" it="Livello"></en_level></developer_hobby>
+<developer_language path="model/developer_language.py" ext="py"><en_developer_languages base="Developer languages" it="Lingue sviluppatore"></en_developer_languages>
+<en_developer_language base="Developer language" it="Lingua sviluppatore"></en_developer_language>
+<en_developer base="Developer" it="Sviluppatore"></en_developer>
+<en_language base="Language" it="Linguaggio"></en_language>
+<en_level base="Level" de="Höhe" en="Level" fr="Niveau" it="Livello"></en_level>
+<en_programming_language base="Programming language" it="Linguaggio di programmazione"></en_programming_language></developer_language>
+<developer_qualification path="model/developer_qualification.py" ext="py"><en_developer_qualifications base="Developer qualifications" it="Titoli di studio sviluppatore"></en_developer_qualifications>
+<en_developer_qualification base="Developer qualification" it="Titolo di studio sviluppatore"></en_developer_qualification>
+<en_developer base="Developer" it="Sviluppatore"></en_developer>
+<en_qualification base="Qualification" it="Titolo di studio"></en_qualification>
+<en_level base="Level" de="Höhe" en="Level" fr="Niveau" it="Livello"></en_level></developer_qualification>
+<developer_topic path="model/developer_topic.py" ext="py"><en_developer_topics base="Developer topics" it="Interessi sviluppatore"></en_developer_topics>
+<en_developer_topic base="Developer topic" it="Interesse sviluppatore"></en_developer_topic>
+<en_developer base="Developer" it="Sviluppatore"></en_developer>
+<en_topic base="Topic" de="Thema" en="Topic" fr="Sujet" it="Argomento"></en_topic>
+<en_level base="Level" de="Höhe" en="Level" fr="Niveau" it="Livello"></en_level></developer_topic>
+<hobby path="model/hobby.py" ext="py"><en_hobby base="Hobby"></en_hobby>
+<en_hobbies base="Hobbies"></en_hobbies>
+<en_description base="Description" en="Description" it="Descrizione"></en_description></hobby>
+<language path="model/language.py" ext="py"><en_programming_language base="Programming Language" it="Linguaggio di programmazione"></en_programming_language>
+<en_programming_languages base="Programming Languages" it="Linguaggi di programmazione"></en_programming_languages>
+<en_code base="Code" en="Code" it="Codice"></en_code>
+<en_description base="Description" en="Description" it="Descrizione"></en_description></language>
+<project path="model/project.py" ext="py"><en_project base="Project" it="Progetto"></en_project>
+<en_projects base="Projects" it="Progetti"></en_projects>
+<en_name fr="Nom" de="Name" en="Name" it="Nome" base="Name"></en_name>
+<en_description base="Description" en="Description" it="Descrizione"></en_description>
+<en_descr_ base="Descr."></en_descr_>
+<en_project_url base="Project URL" it="URL progetto"></en_project_url>
+<en_repository_url base="Repository URL" it="URL repository"></en_repository_url>
+<en_developer base="Developer" it="Sviluppatore"></en_developer></project>
+<qualification path="model/qualification.py" ext="py"><en_educational_qualification base="Educational qualification" it="Titolo di studio"></en_educational_qualification>
+<en_educational_qualifications base="Educational qualifications" it="Titoli di studio"></en_educational_qualifications>
+<en_code base="Code" en="Code" it="Codice"></en_code>
+<en_description base="Description" en="Description" it="Descrizione"></en_description></qualification>
+<topic path="model/topic.py" ext="py"><en_topic base="Topic" de="Thema" en="Topic" fr="Sujet" it="Argomento"></en_topic>
+<en_topics base="Topics" it="Argomenti"></en_topics>
+<en_description base="Description" en="Description" it="Descrizione"></en_description></topic></model>
+<resources><tables><_packages><sys><service><th_service path="resources/tables/_packages/sys/service/th_service.py" ext="py"><en_add_a_repository_service base="Add a repository service" it="Aggiungi un service repository"></en_add_a_repository_service>
+<en_implementation base="Implementation" it="Implementazione"></en_implementation></th_service></service></sys></_packages>
+<developer><th_developer path="resources/tables/developer/th_developer.py" ext="py"><en_tg_username base="Tg username" it="Username Tg"></en_tg_username>
+<en_languages fr="Langues" de="Sprachen" en="Languages" it="Linguaggi" base="Languages"></en_languages>
+<en_qualifications base="Qualifications" it="Titoli di studio"></en_qualifications>
+<en_topics base="Topics" it="Argomenti"></en_topics>
+<en_hobbies base="Hobbies"></en_hobbies>
+<en_developer_info base="Developer info" it="Info sviluppatore"></en_developer_info>
+<en_address base="Address" it="Indirizzo"></en_address>
+<en_save fr="Sauvegarder" de="Speichern" en="Save" it="Salva" base="Save"></en_save></th_developer></developer>
+<hobby><th_hobby path="resources/tables/hobby/th_hobby.py" ext="py"><en_no base="No"></en_no>
+<en_low base="Low" it="Basso"></en_low>
+<en_medium base="Medium" it="Medio"></en_medium>
+<en_good base="Good" it="Buono"></en_good>
+<en_excellent base="Excellent" it="Eccellente"></en_excellent></th_hobby></hobby>
+<language><th_language path="resources/tables/language/th_language.py" ext="py"><en_no base="No"></en_no>
+<en_low base="Low" it="Basso"></en_low>
+<en_medium base="Medium" it="Medio"></en_medium>
+<en_good base="Good" it="Buono"></en_good>
+<en_excellent base="Excellent" it="Eccellente"></en_excellent></th_language></language>
+<qualification><th_qualification path="resources/tables/qualification/th_qualification.py" ext="py"><en_no base="No"></en_no>
+<en_low base="Low" it="Basso"></en_low>
+<en_medium base="Medium" it="Medio"></en_medium>
+<en_good base="Good" it="Buono"></en_good>
+<en_excellent base="Excellent" it="Eccellente"></en_excellent></th_qualification></qualification>
+<topic><th_topic path="resources/tables/topic/th_topic.py" ext="py"><en_no base="No"></en_no>
+<en_low base="Low" it="Basso"></en_low>
+<en_medium base="Medium" it="Medio"></en_medium>
+<en_good base="Good" it="Buono"></en_good>
+<en_excellent base="Excellent" it="Eccellente"></en_excellent></th_topic></topic></tables></resources></GenRoBag>
