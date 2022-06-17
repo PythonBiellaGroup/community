@@ -124,15 +124,15 @@ class Form(BaseComponent):
 
     def developerPhoto(self, pane):
         pane.img(src='^.photo_url',
+                    edit='camera',
                     crop_margin='auto',
                     crop_margin_top='20px',
                     crop_height='170px',
                     crop_width='170px',
                     crop_border='2px dotted silver',
-                    crop_rounded=6,edit=True,
+                    crop_rounded=6,
                     placeholder=True,
-                    upload_folder='site:developers/avatars',
-                    upload_filename='=#FORM.record.id')
+                    upload_folder='*')
 
     def developerProjects(self, pane):
         pane.dialogTableHandler(pbl_classes=True,margin='2px',
