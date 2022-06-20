@@ -3,7 +3,6 @@ from gnr.core.gnrdecorator import metadata
 
 class Menu(object):
     def config(self,root,**kwargs):
-        root.thpage("!![en]My profile", table='comm.developer', pkey=self.db.currentEnv.get('developer_id'))
         root.thpage(u"!![en]Developers", table="comm.developer")
         root.thpage(u"!![en]Projects", table="comm.project")
         root.lookupBranch(u"!![en]Lookups", pkg="comm")

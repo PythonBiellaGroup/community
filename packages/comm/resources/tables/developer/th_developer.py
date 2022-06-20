@@ -134,10 +134,6 @@ class Form(BaseComponent):
                     placeholder=True,
                     upload_folder='*')
 
-    def developerProjects(self, pane):
-        pane.dialogTableHandler(pbl_classes=True,margin='2px',
-                    relation='@projects', viewResource='ViewFromDeveloper', addrow=False, delrow=False)
-
     def developerUser(self, pane):
         pane.linkerBox('user_id', 
                     addEnabled=True, formResource='Form',
