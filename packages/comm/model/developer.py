@@ -4,7 +4,7 @@ from gnr.core.gnrdecorator import metadata
 class Table(object):
     def config_db(self,pkg):
         tbl=pkg.table('developer', pkey='id', name_long='!![en]Developer', name_plural='!![en]Developers',
-                                    caption_field='tg_username')
+                                    caption_field='username')
         self.sysFields(tbl)
         
         tbl.column('name', size=':30', name_long='!![en]Name', group='card')
