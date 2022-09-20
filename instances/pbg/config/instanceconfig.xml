@@ -5,7 +5,11 @@
 	<packages>
 		<gnrcore_adm pkgcode="gnrcore:adm"/>
 		<gnrcore_sys pkgcode="gnrcore:sys"/>
+		<gnrcore_email pkgcode="gnrcore:email"/>
 		<gnrextra_srvy pkgcode="gnrextra:srvy"/>
+		<gnrextra_genrobot pkgcode="gnrextra:genrobot"/>
+		<gnrextra_social pkgcode="gnrextra:social"/>
+		<gnrextra_dem pkgcode="gnrextra:dem"/>
 		<comm pkgcode="comm"/>
 	</packages>
 	
