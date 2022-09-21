@@ -10,7 +10,8 @@
 		<gnrextra_genrobot pkgcode="gnrextra:genrobot"/>
 		<gnrextra_social pkgcode="gnrextra:social"/>
 		<gnrextra_dem pkgcode="gnrextra:dem"/>
-		<comm pkgcode="comm"/>
+		<community_comm pkgcode="community:comm"/>
+		<pbg/>
 	</packages>
 	
 	<authentication pkg="adm">
@@ -18,6 +19,6 @@
 	</authentication>
 
 	<site>
-		<wsgi mainpackage='comm'/>
+		<wsgi mainpackage='pbg'/>
 	</site>
 </GenRoBag>
