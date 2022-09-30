@@ -15,5 +15,5 @@ class Table(object):
             for v in value_keys:
                 value = int(v.replace("value_",""))
                 value_bag['value'] = value
-        self.update(record,old_record)
+        self.raw_update(record,old_record)
 
