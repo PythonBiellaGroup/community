@@ -6,9 +6,11 @@
 		<gnrcore_adm pkgcode="gnrcore:adm"/>
 		<gnrcore_sys pkgcode="gnrcore:sys"/>
 		<gnrcore_email pkgcode="gnrcore:email"/>
+		<gnrcore_biz pkgcode="gnrcore:biz"/>
 		<gnrextra_srvy pkgcode="gnrextra:srvy"/>
 		<gnrextra_genrobot pkgcode="gnrextra:genrobot"/>
 		<gnrextra_social pkgcode="gnrextra:social"/>
+		<gnrextra_video pkgcode="gnrextra:video"/>
 		<gnrextra_dem pkgcode="gnrextra:dem"/>
 		<community_comm pkgcode="community:comm"/>
 		<pbg/>
@@ -19,6 +21,6 @@
 	</authentication>
 
 	<site>
-		<wsgi mainpackage='comm' external_host='https://community.pythonbiellagroup.it'/>
+		<wsgi mainpackage='pbg' external_host='https://community.pythonbiellagroup.it'/>
 	</site>
 </GenRoBag>
