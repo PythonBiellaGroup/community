@@ -19,6 +19,6 @@
 	</authentication>
 
 	<site>
-		<wsgi mainpackage='pbg'/>
+		<wsgi mainpackage='comm' external_host='https://community.pythonbiellagroup.it'/>
 	</site>
 </GenRoBag>
