@@ -2,3 +2,4 @@ instances/pbg/site/_static/*
 instances/pbg/site/data/_users/*
 *.pyc
 .DS_Store
+*.pik
