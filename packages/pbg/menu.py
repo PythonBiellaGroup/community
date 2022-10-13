@@ -17,8 +17,22 @@ class Menu(object):
 
     @metadata(group_code='COMM')
     def config_community(self,root,**kwargs):
-        root.packageBranch(u"!![en]Community", pkg="comm")
+        root.thpage("!![en]My profile", table='comm.developer', formResource='FormProfile',
+                            pkey=self.db.currentEnv.get('developer_id'), form_locked=False)
+        root.webpage(u"!![en]Community", filepath="/comm/community_map")
+        root.thpage(u"!![en]Suggestions", table="comm.suggestion")
+        root.thpage(u"!![en]Projects", table="comm.project", 
+                            viewResource='ViewDevelopers', formResource='FormDevelopers')
+        root.thpage(u"!![en]Events", table="comm.event_series",
+                            viewResource='ViewDevelopers', formResource='FormDevelopers')
 
     @metadata(group_code='SUPP')
     def config_supporters(self,root,**kwargs):
-        root.packageBranch(u"!![en]Community", pkg="comm")
+        root.thpage("!![en]My profile", table='comm.developer', formResource='FormProfile',
+                            pkey=self.db.currentEnv.get('developer_id'), form_locked=False)
+        root.thpage(u"!![en]Suggestions", table="comm.suggestion")
+        root.webpage(u"!![en]Community", filepath="/comm/community_map")
+        root.thpage(u"!![en]Projects", table="comm.project", 
+                            viewResource='ViewSupporters', formResource='FormSupporters')
+        root.thpage(u"!![en]Events", table="comm.event_series", 
+                            viewResource='ViewSupporters', formResource='FormSupporters')
