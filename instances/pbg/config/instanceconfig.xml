@@ -22,5 +22,6 @@
 
 	<site>
 		<wsgi mainpackage='pbg' external_host='https://community.pythonbiellagroup.it'/>
+		<pwa enabled='t'/>
 	</site>
 </GenRoBag>
