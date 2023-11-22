@@ -6,6 +6,7 @@
 		<gnrcore_adm pkgcode="gnrcore:adm"/>
 		<gnrcore_sys pkgcode="gnrcore:sys"/>
 		<gnrcore_email pkgcode="gnrcore:email"/>
+		<gnrcoredocu pkgcode="gnrcore:docu"/>
 		<gnrcore_biz pkgcode="gnrcore:biz"/>
 		<gnrextra_srvy pkgcode="gnrextra:srvy"/>
 		<gnrextra_genrobot pkgcode="gnrextra:genrobot"/>

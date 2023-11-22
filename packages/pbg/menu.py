@@ -11,6 +11,7 @@ class Menu(object):
         if self.db.application.getPreference('enable_dem', pkg='comm'):
             root.packageBranch(u"!![en]DEM", pkg="dem", tags='admin')
         root.packageBranch(u"!![en]E-mail", pkg="email", tags='admin')
+        root.packageBranch(u"!![en]Documentation", pkg="docu", tags='_DOC_')
         root.packageBranch(u"!![en]Administration", tags="superadmin,_DEV_", pkg="adm")
         root.packageBranch(u"!![en]System", tags="_DEV_", pkg="sys")
         root.packageBranch("!![en]Dashboard", pkg="biz")
@@ -23,7 +24,7 @@ class Menu(object):
         root.thpage(u"!![en]Suggestions", table="comm.suggestion")
         root.thpage(u"!![en]Projects", table="comm.project", 
                             viewResource='ViewDevelopers', formResource='FormDevelopers')
-        root.thpage(u"!![en]Events", table="comm.event_series",
+        root.thpage(u"!![en]Events", table="comm.event",
                             viewResource='ViewDevelopers', formResource='FormDevelopers')
 
     @metadata(group_code='SUPP')
@@ -34,5 +35,5 @@ class Menu(object):
         root.webpage(u"!![en]Community", filepath="/comm/community_map")
         root.thpage(u"!![en]Projects", table="comm.project", 
                             viewResource='ViewSupporters', formResource='FormSupporters')
-        root.thpage(u"!![en]Events", table="comm.event_series", 
+        root.thpage(u"!![en]Events", table="comm.event", 
                             viewResource='ViewSupporters', formResource='FormSupporters')
